@@ -24,8 +24,7 @@ if (!(Get-PSSnapin | ?{$_.name -eq 'SqlServerProviderSnapin100'}))
 	} 
 	else 
 	{ 
-		Get-PSSnapin
-		write-host "SqlServerProviderSnapin100 is not registered with the system." -Backgroundcolor Red –Foregroundcolor White  
+		write-error "SqlServerProviderSnapin100 is not registered with the system."
 	} 
 } 
 else 
@@ -43,10 +42,10 @@ if (!(Get-PSSnapin | ?{$_.name -eq 'SqlServerCmdletSnapin100'}))
 	} 
 	else 
 	{ 
-		write-host "SqlServerCmdletSnapin100 is not registered with the system."  
+		write-error  "SqlServerCmdletSnapin100 is not registered with the system."  
 	} 
 } 
 else 
 { 
 	write-host "SqlServerCmdletSnapin100 is already loaded" 
-} 
+}
