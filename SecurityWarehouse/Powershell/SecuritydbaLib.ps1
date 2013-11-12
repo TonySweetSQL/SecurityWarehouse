@@ -1,7 +1,13 @@
+#############################################################################
+# Script Information
+#----------------------------------------------------------------------------
+#  Author: Tony Sweet (@tonysweetdba)
+#  Date: 11/12/13
+#  Description: Loads Powershell snap-ins, sets default Database
+#############################################################################
 
-#############################################################################
+
 # Define inventory server and database
-#############################################################################
 [String] $inventoryServer=""
 [String] $inventoryDatabase="SecurityWarehouse"
 
