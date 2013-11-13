@@ -3,7 +3,7 @@
 #----------------------------------------------------------------------------
 #  Author: Tony Sweet (@tonysweetdba)
 #  Date: 11/12/13
-#  Description: Loads Powershell snap-ins, sets default Database
+#  Description: Loads Powershell Modules, sets default Database
 #############################################################################
 
 # Define inventory server and database
